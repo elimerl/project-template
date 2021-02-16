@@ -1,0 +1,16 @@
+{
+  "name": "project-template",
+  "version": "1.0.0",
+  "description": "description",
+  "main": "index.js",
+  "author": "elimerl",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "yarn workspaces run build",
+    "dev": "yarn workspaces run dev"
+  }
+}
